@@ -1,6 +1,6 @@
 from flask import Flask
 import os
-import boto3
+import boto4
 app = Flask(__name__)
 
 @app.route("/")
